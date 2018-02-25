@@ -79,15 +79,19 @@ You need to have installed follow tools on your machine:
 
 **1.** Clone main repository:
 ```bash
-$ git clone git@github.com:martinmicunda/employee-scheduling.git 
+$ git clone https://github.com/xswtygirlx/employee-scheduling.git
 $ cd employee-scheduling
 ```
 
-**2.** Clone submodule repositories:
+**2.** Clone submodule repositories:  
+>**NOTE:** Update .gitmodules before running the 'init' command
 ```bash
 $ git submodule init
 $ git submodule update
 ```
+
+Install vagrant 
+vagrant plugin install vagrant-hostmanager
 
 **3.** The following command would add a new `ubuntu trusty64 box`, and if an existing one is found, it will override it:
 
